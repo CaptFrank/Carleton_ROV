@@ -1,0 +1,1 @@
+cmd_/home/root/l3g4200d/l3g4200d.ko := ld -EL -r  -T /usr/src/kernel/scripts/module-common.lds --build-id  -o /home/root/l3g4200d/l3g4200d.ko /home/root/l3g4200d/l3g4200d.o /home/root/l3g4200d/l3g4200d.mod.o

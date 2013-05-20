@@ -1,0 +1,1 @@
+cmd_/home/root/lsm303dlh/lsm303dlh_a.ko := ld -EL -r  -T /usr/src/kernel/scripts/module-common.lds --build-id  -o /home/root/lsm303dlh/lsm303dlh_a.ko /home/root/lsm303dlh/lsm303dlh_a.o /home/root/lsm303dlh/lsm303dlh_a.mod.o

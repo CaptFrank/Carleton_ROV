@@ -1,0 +1,8 @@
+#
+# Unloading of driver XBee
+#
+echo "Unloading driver..."
+rmmod XBeeDrv
+rm /dev/XBee0
+echo "Done."
+

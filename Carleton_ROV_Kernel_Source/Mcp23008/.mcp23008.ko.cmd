@@ -1,0 +1,1 @@
+cmd_/home/root/Mcp23008/mcp23008.ko := ld -EL -r  -T /usr/src/kernel/scripts/module-common.lds --build-id  -o /home/root/Mcp23008/mcp23008.ko /home/root/Mcp23008/mcp23008.o /home/root/Mcp23008/mcp23008.mod.o

@@ -1,0 +1,12 @@
+#
+# Loading of driver XBee
+#
+echo "Loading driver..."
+# setup serial port
+stty -F /dev/ttyS0 9600
+# create device file
+mknod /dev/XBee0 c 61 0
+#load driver file
+insmod /home/shondll/XBeeDriver_final/XBeeDrv.ko
+echo "Done."
+

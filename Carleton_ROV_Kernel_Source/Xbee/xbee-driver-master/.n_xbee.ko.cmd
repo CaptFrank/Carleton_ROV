@@ -1,0 +1,1 @@
+cmd_/home/root/Xbee/xbee-driver-master/n_xbee.ko := ld -EL -r  -T /usr/src/kernel/scripts/module-common.lds --build-id  -o /home/root/Xbee/xbee-driver-master/n_xbee.ko /home/root/Xbee/xbee-driver-master/n_xbee.o /home/root/Xbee/xbee-driver-master/n_xbee.mod.o

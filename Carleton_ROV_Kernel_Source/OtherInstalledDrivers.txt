@@ -1,0 +1,6 @@
+Other Drivers Installed on BeagleBone Used:
+
+	- rtc_ds1307
+	- adcxx
+	- bmp085
+	- spidev

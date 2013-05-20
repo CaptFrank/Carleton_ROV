@@ -1,0 +1,12 @@
+
+[Unit]
+Description=THIS IS THE UART1 INPUT/OUPUT SERVICE 
+
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/UART1_XBEE.sh
+
+[Install]
+WantedBy=multi-user.target
