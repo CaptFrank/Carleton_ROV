@@ -1,0 +1,4 @@
+/lib/modules/3.8.6/kernel/net/ipv6/ipv6.ko
+/etc/modules-load.d/ipv6.conf
+/lib/modules/3.8.6/kernel/net/
+/lib/modules/3.8.6/kernel/net/ipv6/

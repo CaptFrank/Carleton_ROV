@@ -1,0 +1,13 @@
+Package: genmac
+Version: 1.0-r0.2
+Description: Provide a basic init script to generate a random MAC
+ Set the MAC from the config file.
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: MIT
+Architecture: armv7a-vfp-neon
+OE: genmac
+Homepage: unknown
+Depends: update-rc.d, ranpwd
+Source: file://genmac

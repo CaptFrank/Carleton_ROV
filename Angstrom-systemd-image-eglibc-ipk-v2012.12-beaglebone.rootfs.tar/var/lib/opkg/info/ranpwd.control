@@ -1,0 +1,13 @@
+Package: ranpwd
+Version: 1.2+gitAUTOINC+b62aab579e288715b82d5575befaa2b8ff210c2b-r0.2
+Description: ranpwd version 1.2+gitAUTOINC+b62aab579e288715b82d5575befaa2b8ff210c2b-r0
+ Random password generator
+Section: console/utils
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: GPLv2+
+Architecture: armv7a-vfp-neon
+OE: ranpwd
+Homepage: unknown
+Depends: libc6 (>= 2.16)
+Source: git://git.zytor.com/utils/ranpwd.git

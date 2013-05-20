@@ -1,0 +1,4 @@
+# Aliases extracted from modules themselves.
+alias net-pf-10 ipv6
+alias devname:autofs autofs4
+alias char-major-10-235 autofs4
